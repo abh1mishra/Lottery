@@ -5,6 +5,7 @@ const web3=new Web3(ganache.provider());
 const {bytecode,interface}= require("../compile");
 let accounts;
 let lottery;
+//changes
 beforeEach(async()=>{
     if(!lottery){
     accounts=await web3.eth.getAccounts();
